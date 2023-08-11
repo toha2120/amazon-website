@@ -100,3 +100,54 @@ span{
     font-size: 0.85rem;
     font-weight: 700;
 }
+
+/* panel */
+
+.panel{
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #222f33;
+    color: white;
+}
+
+.panel-option{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-option p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-deal{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* hero-section */
+
+.hero-section{
+    background-image: url(images/61zAjw4bqPL._SX3000_.jpg);
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-massege{
+    background-color: white;
+    color: #0f1111;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 90%;
+    margin-bottom: 30px;
+}
+.hero-massege a{
+    color: #007185;
+}
